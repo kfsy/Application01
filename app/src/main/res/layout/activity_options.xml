@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recoveryLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_pic"
+    tools:context="com.garden.gts.meditationassistant.RecoveryActivity">
+
+    <LinearLayout
+        android:id="@+id/optionsLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="补1起身/俯卧时间:"
+                style="@style/SettingLeftText" />
+
+            <EditText
+                android:id="@+id/editText1"
+                style="@style/SettingEditText"/>
+
+            <TextView
+                android:text="秒"
+                style="@style/SettingRightText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="补2时间设置:"
+                style="@style/SettingLeftText"/>
+
+            <EditText
+                android:id="@+id/editText2"
+                style="@style/SettingEditText" />
+
+            <TextView
+                android:text="分钟"
+                style="@style/SettingRightText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="补3时间设置:"
+                style="@style/SettingLeftText" />
+
+            <EditText
+                android:id="@+id/editText3"
+                style="@style/SettingEditText" />
+
+            <TextView
+                android:text="分钟"
+                style="@style/SettingRightText" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="补4时间设置:"
+                style="@style/SettingLeftText" />
+
+            <EditText
+                android:id="@+id/editText4"
+                style="@style/SettingEditText" />
+
+            <TextView
+                android:text="分钟"
+                style="@style/SettingRightText"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="准备时间设置:"
+                style="@style/SettingLeftText" />
+
+            <EditText
+                android:id="@+id/editText0"
+                style="@style/SettingEditText"/>
+
+            <TextView
+                android:text="秒"
+                style="@style/SettingRightText" />
+        </LinearLayout>
+        <!--<Button
+            android:layout_width="120sp"
+            android:layout_height="36sp"
+            android:layout_gravity="center_horizontal"
+            android:text="补1时间设置"
+            android:textSize="16sp"
+            android:layout_marginBottom="10sp"
+            android:background="#CCFFFFFF"
+            android:id="@+id/r1Setting"/>
+        <Button
+            android:layout_width="120sp"
+            android:layout_height="36sp"
+            android:layout_gravity="center_horizontal"
+            android:text="补2时间设置"
+            android:textSize="16sp"
+            android:layout_marginBottom="10sp"
+            android:background="#CCFFFFFF"
+            android:id="@+id/r2Setting"/>
+        <Button
+            android:layout_width="120sp"
+            android:layout_height="36sp"
+            android:layout_gravity="center_horizontal"
+            android:text="补3时间设置"
+            android:textSize="16sp"
+            android:layout_marginBottom="10sp"
+            android:background="#CCFFFFFF"
+            android:id="@+id/r3Setting"/>
+        <Button
+            android:layout_width="120sp"
+            android:layout_height="36sp"
+            android:layout_gravity="center_horizontal"
+            android:text="补4时间设置"
+            android:textSize="16sp"
+            android:layout_marginBottom="10sp"
+            android:background="#CCFFFFFF"
+            android:id="@+id/r4Setting"/>
+        <Button
+            android:layout_width="120sp"
+            android:layout_height="36sp"
+            android:layout_gravity="center_horizontal"
+            android:text="准备时间设置"
+            android:textSize="16sp"
+            android:layout_marginBottom="10sp"
+            android:background="#CCFFFFFF"
+            android:id="@+id/waitTime"/>-->
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="40sp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button1"
+        android:id="@+id/save"
+        android:layout_above="@+id/back"
+        android:text="保     存"
+        android:textColor="@color/colorThinBlue"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="15sp"
+        />
+    <Button
+        android:id="@+id/back"
+        android:layout_width="150sp"
+        android:layout_height="40sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/button1"
+        android:text="返     回"
+        android:textColor="@color/colorThinBlue"
+        android:textSize="20sp"
+        android:gravity="center"/>
+</RelativeLayout>

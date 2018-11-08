@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.garden.gts.meditationassistant.MainActivity"
+    android:background="@mipmap/main_pic">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:layout_centerHorizontal="true"
+            android:textSize="40sp"
+            android:textColor="@color/colorShenLan"
+            android:shadowColor="@color/colorWhite"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="1.5"
+            android:id="@+id/Top"/>
+    <Button
+        android:layout_above="@+id/recovery2"
+        android:text="前驱拉伸"
+        android:id="@+id/recovery1"
+        style="@style/MainButton" />
+    <Button
+        android:layout_above="@+id/recovery3"
+        android:text="撞墙震动"
+        android:id="@+id/recovery2"
+        style="@style/MainButton" />
+
+    <Button
+        android:layout_above="@+id/recovery4"
+        android:text="撑台空腰"
+        android:id="@+id/recovery3"
+        style="@style/MainButton" />
+    <Button
+        android:layout_above="@+id/soundSwitch"
+        android:text="顶牛场能"
+        android:id="@+id/recovery4"
+        style="@style/MainButton" />
+    <Button
+        android:layout_above="@+id/options"
+        android:text="背景音乐：开"
+        android:id="@+id/soundSwitch"
+        style="@style/MainButton"
+        />
+    <Button
+        android:layout_above="@+id/assist"
+        android:text="时间设置"
+        android:id="@+id/options"
+        style="@style/MainButton" />
+    <Button
+        android:layout_width="160sp"
+        android:layout_height="40sp"
+        android:text="其     他"
+        android:id="@+id/assist"
+        android:textSize="20sp"
+        android:textColor="@color/colorThinBlue"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:background="@drawable/button1"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>
